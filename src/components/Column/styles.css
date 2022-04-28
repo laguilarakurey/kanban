@@ -1,0 +1,23 @@
+.column__header{
+   margin-bottom: 2px;   
+   border-radius: 5px 5px 0 0;
+}
+
+.column{
+   display:flex;
+   flex-direction: column;
+   gap: 0.5em;
+
+   width: 250px;
+   min-height: 500px;
+
+   border: solid 3px lightgray;
+   border-radius: 0 0 5px 5px  ;
+
+   overflow: auto;
+}
+
+.column__header, .column{
+   padding: 10px;
+   background-color: lightgray;
+}
